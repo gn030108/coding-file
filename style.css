@@ -1,0 +1,20 @@
+header {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  
+  justify-content: space-between;
+}
+#중고거래{
+  color : orange;
+}
