@@ -1,20 +1,64 @@
-header {
-  background-color: white;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  position: sticky;
-  top: 0;
-  width: 100%;
+:root {
+  /*colar*/
+  --white-color : #FFFFFF;
+  --black-color : #212529;
+  --green-color :#E6F3E6;
+  --gray-color : #f8f9fa;
+  --beige-color: #FBF7F2;
+  --orange-color:#ff6f0f;
+  /*size*/
+  --padding:12px;
   
+  /*font size*/
+  --mideum-size:18px ;
 }
-ul {
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Noto Sans Korean;
+  font-size: var(--mideum-size);
+}
+
+/*index.html*/
+a{
+  text-decoration: none;
+  color: var(--black-color);
+}
+header{
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  
-  justify-content: space-between;
+  justify-content: center;
+  margin: 0px 138px;
 }
-#중고거래{
-  color : orange;
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white-color);
+  position: fixed;
+  top :  0;
+  font-size: var(--mideum-size);
 }
+.nav_logo{
+  margin-right: 30px;
+}
+.nav_menu{
+  display: flex;
+  list-style: none;
+  padding-right: 40px;
+}
+.nav_menu li{
+  padding: 16px 12px;
+  margin-right: 30px;
+}
+.search{
+  color: #212529;
+  display: inline;
+}
+
+.white{
+  height: 64px;
+}
+/*login.html*/
+/*membership.html*/
