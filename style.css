@@ -61,4 +61,28 @@ header{
   height: 64px;
 }
 /*login.html*/
-/*membership.html*/
+.login{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#login{
+  color: #ff6f0f;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 400px;
+  margin-bottom: 10px;
+  
+  
+}
+#login_button{
+  color: #FFFFFF;
+  background-color: #ff6f0f;
+  border-color: #ff8300;
+  font-size: 20px;
+  padding: 0px 100px;
+
+}
