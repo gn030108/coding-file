@@ -21,6 +21,10 @@
   font-size: var(--mideum-size);
 }
 
+ul{
+  list-style: none;
+}
+
 /*index.html*/
 a{
   text-decoration: none;
@@ -45,7 +49,6 @@ header{
 }
 .nav_menu{
   display: flex;
-  list-style: none;
   padding-right: 40px;
 }
 .nav_menu li{
@@ -60,12 +63,117 @@ header{
 .white{
   height: 64px;
 }
+/* image1*/
+.image1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--beige-color);
+  padding: 60px 0px;
+}
+.metadata1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* image2*/
+.image2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white-color);
+  padding: 60px 0px;
+}
+.metadata2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* image3*/
+.image3{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--green-color);
+  padding: 60px 0px;
+}
+.metadata3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.meta_text3{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 40px;
+}
+
+
+.meta_list1{
+  margin: 16px 40px 16px 0px;
+}
+.meta_list2{
+  margin: 16px 40px 16px 0px;
+}
+.meta_list3{
+  margin: 16px 40px 16px 0px;
+}
+
+
+.meta_list1_text1{
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+.meta_list1_text2{
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+.meta_list1_text3{
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+/* image4*/
+.image4{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white-color);
+  padding: 60px 0px;
+}
+.metadata4{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* image5*/
+.image5{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--gray-color);
+}
+
+
+
 /*login.html*/
 .login{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 #login{
   color: #ff6f0f;
@@ -75,14 +183,14 @@ header{
   align-items: center;
   margin-top: 400px;
   margin-bottom: 10px;
-  
+  padding : 20px
   
 }
 #login_button{
   color: #FFFFFF;
   background-color: #ff6f0f;
   border-color: #ff8300;
-  font-size: 20px;
+  margin-top: 20px;
   padding: 0px 100px;
 
 }
